@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="">
+<body>
+
+<p><h1><center>CGI Feedbacks</center></h1></p>
+<br><br>
+
+
+&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<button class="btn" type="button" onclick="myFunction1()"> <img src="index3.png"></button>&nbsp&nbsp&nbsp
+<button class="btn" type="button" onclick="myFunction2()"> <img src="index.png"></button>&nbsp
+<button class="btn" type="button" onclick="myFunction3()"> <img src="index1.png"></button>&nbsp
+<button class="btn" type="button" onclick="myFunction4()"> <img src="cutmypic.png"></button>&nbsp                                                                                                                                                                 <br><br><br><br><br><br><br>
+<h4>HIGH SATISFACTION<h4>
+<h5 id="demo1">0</h5>
+<h4>MEDIUM SATISFACTION<h4>
+<h5 id="demo2">0</h5>
+<h4>LOW SATISFACTION<h4>
+<h5 id="demo3">0</h5>
+<h4>NO COMMENTS<h4>
+<h5 id="demo4">0</h5>
+
+
+<script>
+var add1 = (function () {
+    var counter = 0;
+    return function () {return counter += 1;}
+})();
+
+function myFunction1(){
+    document.getElementById("demo1").innerHTML = add1();
+}
+</script>
+
+<script>
+var add2 = (function () {
+    var counter = 0;
+    return function () {return counter += 1;}
+})();
+function myFunction2(){
+    document.getElementById("demo2").innerHTML = add2();
+}
+</script>
+
+<script>
+var add3 = (function () {
+    var counter = 0;
+    return function () {return counter += 1;}
+})();
+function myFunction3(){
+    document.getElementById("demo3").innerHTML = add3();
+}
+</script>
+
+<script>
+var add4 = (function () {
+    var counter = 0;
+    return function () {return counter += 1;}
+})();
+function myFunction4(){
+    document.getElementById("demo4").innerHTML = add4();
+}
+</script>
+
+</body>
+</html>
